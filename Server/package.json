@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "Chatify Server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,12 @@
   "keywords": [],
   "author": "David Chinedu Maduabuchi",
   "license": "ISC",
-  "description": "Server side of Genghis Chat App",
+  "description": "Server side of Chatify",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
+    "mongodb": "^6.10.0",
     "mongoose": "^8.7.0",
     "nodemon": "^3.1.7"
   }
